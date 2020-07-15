@@ -1,0 +1,32 @@
+# textdomain: virtual_key
+
+
+### craft_common.lua ###
+
+List of virtual keys in the registerer:=
+Registerer settings=
+There is no virtual key in the registerer.=
+This registerer is not shared.=
+This registerer is public.=
+This registerer is shared with:=
+
+Use it like a regular skeleton key. Click pointing no node to access virtual-key-management interface (keys can be renamed or removed).@nTo use your registered virtual keys, add them to a keyring.=
+
+Virtual keys management=
+You are not allowed to edit settings of this registerer.=
+
+You are not allowed to use this personal virtual keys registerer.=
+
+You are not allowed to use this registerer.=
+You own this registerer.=
+
+### craft_personal_virtual_keys_registerer.lua ###
+
+A personal virtual keys registerer to register your virtual keys.=
+
+Personal virtual keys registerer=
+
+### craft_virtual_keys_registerer.lua ###
+
+A virtual keys registerer to register your virtual keys.=
+Virtual keys registerer=

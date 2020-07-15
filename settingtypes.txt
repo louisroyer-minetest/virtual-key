@@ -1,0 +1,1 @@
+virtual_key.personal_vkeys_registerer (Enable personal virtual keys registerer) bool true

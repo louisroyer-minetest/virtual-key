@@ -1,0 +1,32 @@
+# textdomain: virtual_key
+
+
+### craft_common.lua ###
+
+List of virtual keys in the registerer:=Liste des clés virtuelles dans l’enregistreur :
+Registerer settings=Paramètres de l’enregistreur
+There is no virtual key in the registerer.=Il n’y a pas de clé virtuelle dans l’enregistreur.
+This registerer is not shared.=L’enregistreur n’est pas partagé.
+This registerer is public.=L’enregistreur est public.
+This registerer is shared with:=L’enregistreur est partagé avec :
+
+Use it like a regular skeleton key. Click pointing no node to access virtual-key-management interface (keys can be renamed or removed).@nTo use your registered virtual keys, add them to a keyring.=Utilisez-le comme un squelette de clé classique. Cliquez sans viser de bloc pour accéder à l’interface de gestion de clés virtuelles (les clés peuvent être renommées ou supprimées).@nPour utiliser les clés virtuelles enregistrées, ajoutez les à un trousseau.
+
+Virtual keys management=Gestion des clés virtuelles
+You are not allowed to edit settings of this registerer.=Vous n’êtes pas autorisé à modifier les paramètres de l’enregistreur.
+
+You are not allowed to use this personal virtual keys registerer.=Vouns n’êtes pas autorisé à utiliser cet enregistreur personnel de clés virtuelles.
+
+You are not allowed to use this registerer.=Vous n’êtes pas autorisé à utiliser cet enregistreur.
+You own this registerer.=Vous possédez cet enregistreur.
+
+### craft_personal_virtual_keys_registerer.lua ###
+
+A personal virtual keys registerer to register your virtual keys.=Un enregistreur personnel de clés virtuelles pour enregistrer vos clés virtuelles.
+
+Personal virtual keys registerer=Enregistreur personnel de clés virtuelles
+
+### craft_virtual_keys_registerer.lua ###
+
+A virtual keys registerer to register your virtual keys.=Un enregistreur de clés virtuelles pour enregistrer vos clés virtuelles.
+Virtual keys registerer=Enregistreur de clés virtuelles
