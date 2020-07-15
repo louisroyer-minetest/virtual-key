@@ -203,7 +203,7 @@ minetest.register_on_craft(function(itemstack, player, old_craft_grid, craft_inv
 	end
 	local meta = itemstack:get_meta()
 	meta:set_string("description", itemstack:get_description()
-		.." "..KS("(owned by @1)", play_name))
+		.." ("..KS("owned by @1", play_name)..")")
 	meta:set_string("owner", play_name)
 	return itemstack
 end)
@@ -227,7 +227,7 @@ minetest.register_craft_predict(function(itemstack, player, old_craft_grid, craf
 
 	local meta = itemstack:get_meta()
 	meta:set_string("description", itemstack:get_description()
-		.." "..KS("(owned by @1)", play_name))
+		.." ("..KS("owned by @1", play_name)..")")
 	meta:set_string("owner", play_name)
 	return itemstack
 end)
