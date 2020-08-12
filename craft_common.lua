@@ -176,7 +176,6 @@ minetest.register_on_craft(function(itemstack, player, old_craft_grid, craft_inv
 	-- merge virtual keys in 1 KRS
 	local r_krs = {}
 	for p, i in pairs(old_craft_grid) do
-		print(dump(i))
 		if minetest.get_item_group(i:get_name(), "virtual_key") == 1 then
 			local meta = i:get_meta()
 			local krs = minetest.deserialize(meta:get_string(keyring.fields.KRS)) or {}
