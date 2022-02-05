@@ -11,11 +11,11 @@ Content of registerer can be copied without loss on any other registerer and add
 
 ## Craft
 ### Virtual keys registerer (shapeless)
-- `default:skeleton_key`
+- `keys:skeleton_key`
 - `basic_materials:ic`
 
 ### Personal virtual keys registerer (shapeless)
-- `default:skeleton_key`
+- `keys:skeleton_key`
 - `basic_materials:ic`
 - `basic_materials:padlock`
 
@@ -52,11 +52,11 @@ Notes:
 
 ## Dependencies
 - [basic_materials](https://gitlab.com/VanessaE/basic_materials)
-- default
 - [keyring](https://github.com/louisroyer/minetest-keyring)
+- keys (from MTG)
 
 ## License
-- CC0-1.0, Louis Royer 2020
+- CC0-1.0, Louis Royer 2020-2022
 
 ## Settings
 Setting `virtual_key.personnal_vkeys_registerer` is available to disable/enable personal virtual keys registerer (enabled by default).

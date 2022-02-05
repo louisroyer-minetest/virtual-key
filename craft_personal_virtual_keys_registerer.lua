@@ -19,7 +19,7 @@ minetest.register_craftitem("virtual_key:personal_virtual_keys_registerer", def)
 
 minetest.register_craft({
 	output = "virtual_key:personal_virtual_keys_registerer",
-	recipe = { "default:skeleton_key", "basic_materials:ic", "basic_materials:padlock" },
+	recipe = { "keys:skeleton_key", "basic_materials:ic", "basic_materials:padlock" },
 	type = "shapeless",
 })
 
