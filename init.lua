@@ -3,7 +3,7 @@ local MP = minetest.get_modpath("virtual_key")
 virtual_key = {}
 
 -- mod information
-virtual_key.mod = {version = "1.0.0", author = "Louis Royer"}
+virtual_key.mod = {version = "1.1.0", author = "Louis Royer"}
 
 -- virtual_key settings
 virtual_key.settings =

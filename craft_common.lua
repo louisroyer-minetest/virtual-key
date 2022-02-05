@@ -1,6 +1,6 @@
 -- Translation support
 local S = minetest.get_translator("virtual_key")
-local DS = minetest.get_translator("default")
+local MTGS = minetest.get_translator("keys")
 local KS = minetest.get_translator("keyring")
 
 virtual_key.craft_common = {}
@@ -90,7 +90,7 @@ virtual_key.craft_common.base_craft_def = {
 		if secret then
 			-- add virtual key
 			return virtual_key.craft_common.import_virtual_key(itemstack, secret,
-				DS("Key to @1's @2", name, minetest.registered_nodes[node.name].description))
+				MTGS("Key to @1's @2", name, minetest.registered_nodes[node.name].description))
 		end
 		return itemstack
 	end,
