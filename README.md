@@ -51,7 +51,7 @@ Notes:
 - since it is a copy from the register to the keyring, you will get your registerer back will all its virtual keys
 
 ## Dependencies
-- [basic_materials](https://gitlab.com/VanessaE/basic_materials)
+- [basic_materials](https://github.com/mt-mods/basic_materials)
 - [keyring](https://github.com/louisroyer/minetest-keyring)
 - keys (from MTG)
 
