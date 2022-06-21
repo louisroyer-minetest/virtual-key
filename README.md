@@ -1,6 +1,6 @@
 # Virtual key
 
-[![Build Status](https://travis-ci.org/louisroyer/minetest-virtual-key.svg?branch=master)](https://travis-ci.org/louisroyer/minetest-virtual-key) [![ContentDB](https://content.minetest.net/packages/louisroyer/virtual_key/shields/title/)](https://content.minetest.net/packages/louisroyer/virtual_key/) [![ContentDB](https://content.minetest.net/packages/louisroyer/virtual_key/shields/downloads/)](https://content.minetest.net/packages/louisroyer/virtual_key/)
+![Build Status](https://github.com/louisroyer-minetest/virtual-key/actions/workflows/main.yml/badge.svg) [![ContentDB](https://content.minetest.net/packages/louisroyer/virtual_key/shields/title/)](https://content.minetest.net/packages/louisroyer/virtual_key/) [![ContentDB](https://content.minetest.net/packages/louisroyer/virtual_key/shields/downloads/)](https://content.minetest.net/packages/louisroyer/virtual_key/)
 
 This minetest mod add virtual keys you can add in your keyring.
 
@@ -52,7 +52,7 @@ Notes:
 
 ## Dependencies
 - [basic_materials](https://github.com/mt-mods/basic_materials)
-- [keyring](https://github.com/louisroyer/minetest-keyring)
+- [keyring](https://github.com/louisroyer-minetest/keyring)
 - keys (from MTG)
 
 ## License
